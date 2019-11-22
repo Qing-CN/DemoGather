@@ -1,0 +1,15 @@
+//
+//  SLQPrefixHeader.pch
+//  DemoGather
+//
+//  Created by deepbaytech on 2019/11/22.
+//  Copyright © 2019 SLQ. All rights reserved.
+//
+
+#ifndef SLQPrefixHeader_pch
+#define SLQPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* SLQPrefixHeader_pch */
