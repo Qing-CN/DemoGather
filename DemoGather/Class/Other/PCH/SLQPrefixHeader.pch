@@ -9,7 +9,50 @@
 #ifndef SLQPrefixHeader_pch
 #define SLQPrefixHeader_pch
 
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+/// 头文件
+#import "HeaderFiles.h"
+
+///屏幕
+#define SLQWidth [UIScreen mainScreen].bounds.size.width
+#define SLQHeight [UIScreen mainScreen].bounds.size.height
+
+
+// iPhone 4S
+#define  IS_iPhone_4S            (SLQWidth == 320.f && SLQHeight == 480.f ? YES : NO)
+// iPhone 5 iPhone 5s iPhone SE
+#define  IS_iPhone_5S            (SLQWidth == 320.f && SLQHeight == 568.f ? YES : NO)
+// iPhone 6 7 8
+#define  IS_iPhone_6S            (SLQWidth == 375.f && SLQHeight == 667.f ? YES : NO)
+// iPhone6plus  iPhone7plus iPhone8plus
+#define  IS_iPhone6_Plus         (SLQWidth == 414.f && SLQHeight == 736.f ? YES : NO)
+/// iPhone X   iPhone XS
+#define  IS_iPhoneX              (SLQWidth == 375.f && SLQHeight == 812.f ? YES : NO)
+/// iPhone XS Max  iPhone XR
+#define  IS_iPhoneX_MAX          (SLQWidth == 414.f && SLQHeight == 896.f ? YES : NO)
+/// 刘海风格
+#define IS_iPhoneXStyle          ((SLQWidth == 375.f && SLQHeight == 812.f ? YES : NO) || (SLQWidth == 414.f && SLQHeight == 896.f ? YES : NO))
+
+/// 状态栏高度
+#define KSTATUSBAR_HEIGHT                       (IS_iPhoneXStyle ? 44.f : 20.f)
+/// 状态栏差值
+#define KSTATUS_DIFFER                          (IS_iPhoneXStyle ? 24.f : 0)
+/// 导航高度
+#define KNAV_HEIGHT                             44.0f
+/// 导航栏高度
+#define KNAVIGATIONBAR_HEIGHT                   (IS_iPhoneXStyle ? 88.f : 64.f)
+/// 导航栏差值
+#define KNAVIGATIONBAR_DIFFER                   (IS_iPhoneXStyle ? 24.f : 0)
+/// tabBar高度
+#define KTABBAR_HEIGHT                          (IS_iPhoneXStyle ? (49.f + 34.f) : 49.f)
+/// tabBar差值
+#define KTABBAR_DIFFER                          (IS_iPhoneXStyle ? 34.f : 0)
+
+//将16进制rgb颜色转换成UIColor
+#define COLORFROM16(RGB, A) [UIColor colorWithRed:((float)((RGB & 0xFF0000) >> 16)) / 255.0 green:((float)((RGB & 0xFF00) >> 8)) / 255.0 blue:((float)(RGB & 0xFF)) / 255.0 alpha:A]
+
+
+#define YXSCALEHEIGHT (IS_iPhoneX ? 1 : (IS_iPhoneX_MAX ? (SLQHeight - 160) / 667.0 : SLQHeight / 667.0))
+/// 字体比例
+#define YXFont(s) [UIFont systemFontOfSize:(s)*YXSCALEHEIGHT]
 
 #endif /* SLQPrefixHeader_pch */

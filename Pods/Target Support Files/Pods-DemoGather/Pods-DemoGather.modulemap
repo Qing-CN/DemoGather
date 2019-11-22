@@ -1,0 +1,6 @@
+module Pods_DemoGather {
+  umbrella header "Pods-DemoGather-umbrella.h"
+
+  export *
+  module * { export * }
+}

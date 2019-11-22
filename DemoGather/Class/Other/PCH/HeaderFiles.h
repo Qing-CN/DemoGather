@@ -10,4 +10,6 @@
 #define HeaderFiles_h
 
 
+#import "UIView+HSKit.h"
+
 #endif /* HeaderFiles_h */

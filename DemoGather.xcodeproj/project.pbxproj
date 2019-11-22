@@ -3,32 +3,52 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0299DB1523877BB400063305 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0299DB1423877BB400063305 /* AppDelegate.m */; };
-		0299DB1823877BB400063305 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0299DB1723877BB400063305 /* SceneDelegate.m */; };
 		0299DB1B23877BB400063305 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0299DB1A23877BB400063305 /* ViewController.m */; };
-		0299DB1E23877BB400063305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0299DB1C23877BB400063305 /* Main.storyboard */; };
 		0299DB2023877BB600063305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0299DB1F23877BB600063305 /* Assets.xcassets */; };
 		0299DB2323877BB600063305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0299DB2123877BB600063305 /* LaunchScreen.storyboard */; };
 		0299DB2623877BB600063305 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0299DB2523877BB600063305 /* main.m */; };
+		0299DB3D238789A800063305 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0299DB3C238789A800063305 /* BaseNavigationController.m */; };
+		0299DB4123878CED00063305 /* UIView+HSKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0299DB3F23878CED00063305 /* UIView+HSKit.m */; };
+		0299DB4A2387C47D00063305 /* Dark.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0299DB492387C47D00063305 /* Dark.xcassets */; };
+		0299DB512387C85A00063305 /* DynamicColorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0299DB4F2387C85A00063305 /* DynamicColorController.m */; };
+		0299DB522387C85A00063305 /* DynamicColorController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0299DB502387C85A00063305 /* DynamicColorController.xib */; };
+		0299DB562387CDE300063305 /* PullDownImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0299DB552387CDE300063305 /* PullDownImageController.m */; };
+		0299DB5D2387D0BD00063305 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0299DB5C2387D0BD00063305 /* BaseViewController.m */; };
+		A9B02056007BDC018B8C121F /* libPods-DemoGather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 023EACBE70CF197F01EBB4F4 /* libPods-DemoGather.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		023EACBE70CF197F01EBB4F4 /* libPods-DemoGather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoGather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0299DB1023877BB400063305 /* DemoGather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoGather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0299DB1323877BB400063305 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0299DB1423877BB400063305 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0299DB1623877BB400063305 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		0299DB1723877BB400063305 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		0299DB1923877BB400063305 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0299DB1A23877BB400063305 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0299DB1D23877BB400063305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0299DB1F23877BB600063305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0299DB2223877BB600063305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0299DB2423877BB600063305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0299DB2523877BB600063305 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0299DB3A238784CB00063305 /* SLQPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLQPrefixHeader.pch; sourceTree = "<group>"; };
+		0299DB3B238789A800063305 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		0299DB3C238789A800063305 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		0299DB3F23878CED00063305 /* UIView+HSKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HSKit.m"; sourceTree = "<group>"; };
+		0299DB4023878CED00063305 /* UIView+HSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HSKit.h"; sourceTree = "<group>"; };
+		0299DB4223878D1700063305 /* HeaderFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderFiles.h; sourceTree = "<group>"; };
+		0299DB492387C47D00063305 /* Dark.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Dark.xcassets; sourceTree = "<group>"; };
+		0299DB4E2387C85A00063305 /* DynamicColorController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicColorController.h; sourceTree = "<group>"; };
+		0299DB4F2387C85A00063305 /* DynamicColorController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicColorController.m; sourceTree = "<group>"; };
+		0299DB502387C85A00063305 /* DynamicColorController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DynamicColorController.xib; sourceTree = "<group>"; };
+		0299DB542387CDE300063305 /* PullDownImageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PullDownImageController.h; sourceTree = "<group>"; };
+		0299DB552387CDE300063305 /* PullDownImageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PullDownImageController.m; sourceTree = "<group>"; };
+		0299DB5B2387D0BD00063305 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		0299DB5C2387D0BD00063305 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		0B0B4DB1B78525633C5B0F4A /* Pods-DemoGather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoGather.debug.xcconfig"; path = "Target Support Files/Pods-DemoGather/Pods-DemoGather.debug.xcconfig"; sourceTree = "<group>"; };
+		1348349ECB8FF1B923F1C452 /* Pods-DemoGather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoGather.release.xcconfig"; path = "Target Support Files/Pods-DemoGather/Pods-DemoGather.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9B02056007BDC018B8C121F /* libPods-DemoGather.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +68,8 @@
 			children = (
 				0299DB1223877BB400063305 /* DemoGather */,
 				0299DB1123877BB400063305 /* Products */,
+				C4DA0DE6303B3BAEA9E67A0D /* Pods */,
+				2AF4C6D8655908414B63DCA1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,19 +84,143 @@
 		0299DB1223877BB400063305 /* DemoGather */ = {
 			isa = PBXGroup;
 			children = (
+				0299DB2C23877F4700063305 /* Class */,
+				0299DB2D23877F5900063305 /* System */,
+			);
+			path = DemoGather;
+			sourceTree = "<group>";
+		};
+		0299DB2C23877F4700063305 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				0299DB442387C3F600063305 /* Controller */,
+				0299DB2E238781A300063305 /* Main */,
+				0299DB372387842400063305 /* Other */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		0299DB2D23877F5900063305 /* System */ = {
+			isa = PBXGroup;
+			children = (
 				0299DB1323877BB400063305 /* AppDelegate.h */,
 				0299DB1423877BB400063305 /* AppDelegate.m */,
-				0299DB1623877BB400063305 /* SceneDelegate.h */,
-				0299DB1723877BB400063305 /* SceneDelegate.m */,
-				0299DB1923877BB400063305 /* ViewController.h */,
-				0299DB1A23877BB400063305 /* ViewController.m */,
-				0299DB1C23877BB400063305 /* Main.storyboard */,
 				0299DB1F23877BB600063305 /* Assets.xcassets */,
+				0299DB492387C47D00063305 /* Dark.xcassets */,
 				0299DB2123877BB600063305 /* LaunchScreen.storyboard */,
 				0299DB2423877BB600063305 /* Info.plist */,
 				0299DB2523877BB600063305 /* main.m */,
 			);
-			path = DemoGather;
+			path = System;
+			sourceTree = "<group>";
+		};
+		0299DB2E238781A300063305 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0299DB2F238781BC00063305 /* Base */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0299DB2F238781BC00063305 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0299DB5A2387D0A500063305 /* Controller */,
+				0299DB30238781CD00063305 /* Navigation */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0299DB30238781CD00063305 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				0299DB3B238789A800063305 /* BaseNavigationController.h */,
+				0299DB3C238789A800063305 /* BaseNavigationController.m */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		0299DB372387842400063305 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0299DB3E23878CDB00063305 /* Extension */,
+				0299DB382387843D00063305 /* PCH */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0299DB382387843D00063305 /* PCH */ = {
+			isa = PBXGroup;
+			children = (
+				0299DB3A238784CB00063305 /* SLQPrefixHeader.pch */,
+				0299DB4223878D1700063305 /* HeaderFiles.h */,
+			);
+			path = PCH;
+			sourceTree = "<group>";
+		};
+		0299DB3E23878CDB00063305 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0299DB4023878CED00063305 /* UIView+HSKit.h */,
+				0299DB3F23878CED00063305 /* UIView+HSKit.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0299DB442387C3F600063305 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0299DB1923877BB400063305 /* ViewController.h */,
+				0299DB1A23877BB400063305 /* ViewController.m */,
+				0299DB452387C40800063305 /* DynamicColor */,
+				0299DB532387CD9E00063305 /* PullDownImage */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0299DB452387C40800063305 /* DynamicColor */ = {
+			isa = PBXGroup;
+			children = (
+				0299DB4E2387C85A00063305 /* DynamicColorController.h */,
+				0299DB4F2387C85A00063305 /* DynamicColorController.m */,
+				0299DB502387C85A00063305 /* DynamicColorController.xib */,
+			);
+			path = DynamicColor;
+			sourceTree = "<group>";
+		};
+		0299DB532387CD9E00063305 /* PullDownImage */ = {
+			isa = PBXGroup;
+			children = (
+				0299DB542387CDE300063305 /* PullDownImageController.h */,
+				0299DB552387CDE300063305 /* PullDownImageController.m */,
+			);
+			path = PullDownImage;
+			sourceTree = "<group>";
+		};
+		0299DB5A2387D0A500063305 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0299DB5B2387D0BD00063305 /* BaseViewController.h */,
+				0299DB5C2387D0BD00063305 /* BaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2AF4C6D8655908414B63DCA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				023EACBE70CF197F01EBB4F4 /* libPods-DemoGather.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4DA0DE6303B3BAEA9E67A0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B0B4DB1B78525633C5B0F4A /* Pods-DemoGather.debug.xcconfig */,
+				1348349ECB8FF1B923F1C452 /* Pods-DemoGather.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +230,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0299DB2923877BB600063305 /* Build configuration list for PBXNativeTarget "DemoGather" */;
 			buildPhases = (
+				759FC3765ABDEF5C21A900DB /* [CP] Check Pods Manifest.lock */,
 				0299DB0C23877BB400063305 /* Sources */,
 				0299DB0D23877BB400063305 /* Frameworks */,
 				0299DB0E23877BB400063305 /* Resources */,
+				B96950CF9839F8968AB9D264 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,36 +283,75 @@
 			buildActionMask = 2147483647;
 			files = (
 				0299DB2323877BB600063305 /* LaunchScreen.storyboard in Resources */,
+				0299DB4A2387C47D00063305 /* Dark.xcassets in Resources */,
 				0299DB2023877BB600063305 /* Assets.xcassets in Resources */,
-				0299DB1E23877BB400063305 /* Main.storyboard in Resources */,
+				0299DB522387C85A00063305 /* DynamicColorController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		759FC3765ABDEF5C21A900DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoGather-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B96950CF9839F8968AB9D264 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoGather/Pods-DemoGather-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoGather/Pods-DemoGather-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoGather/Pods-DemoGather-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0299DB0C23877BB400063305 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0299DB3D238789A800063305 /* BaseNavigationController.m in Sources */,
+				0299DB5D2387D0BD00063305 /* BaseViewController.m in Sources */,
+				0299DB512387C85A00063305 /* DynamicColorController.m in Sources */,
 				0299DB1B23877BB400063305 /* ViewController.m in Sources */,
 				0299DB1523877BB400063305 /* AppDelegate.m in Sources */,
 				0299DB2623877BB600063305 /* main.m in Sources */,
-				0299DB1823877BB400063305 /* SceneDelegate.m in Sources */,
+				0299DB4123878CED00063305 /* UIView+HSKit.m in Sources */,
+				0299DB562387CDE300063305 /* PullDownImageController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0299DB1C23877BB400063305 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0299DB1D23877BB400063305 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0299DB2123877BB600063305 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,33 +475,43 @@
 		};
 		0299DB2A23877BB600063305 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B0B4DB1B78525633C5B0F4A /* Pods-DemoGather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DemoGather/Info.plist;
+				DEVELOPMENT_TEAM = WB62RVHH59;
+				GCC_PREFIX_HEADER = /Users/deepbay/Desktop/DemoGather/DemoGather/Class/Other/PCH/SLQPrefixHeader.pch;
+				INFOPLIST_FILE = /Users/deepbay/Desktop/DemoGather/DemoGather/System/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.demogather.DemoGather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0299DB2B23877BB600063305 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1348349ECB8FF1B923F1C452 /* Pods-DemoGather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DemoGather/Info.plist;
+				DEVELOPMENT_TEAM = WB62RVHH59;
+				GCC_PREFIX_HEADER = /Users/deepbay/Desktop/DemoGather/DemoGather/Class/Other/PCH/SLQPrefixHeader.pch;
+				INFOPLIST_FILE = /Users/deepbay/Desktop/DemoGather/DemoGather/System/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.demogather.DemoGather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

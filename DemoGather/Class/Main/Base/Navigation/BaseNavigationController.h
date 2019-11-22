@@ -6,11 +6,11 @@
 //  Copyright © 2019 SLQ. All rights reserved.
 //
 
-#import "SLQNavigationController.h"
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface BaseNavigationController : SLQNavigationController
+@interface BaseNavigationController : UINavigationController
 
 @end
 
